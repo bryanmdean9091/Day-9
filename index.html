@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 9</title>
+    <script defer src="./js/daily.js"></script>
+    <script defer src="./js/takehome.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+    </script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+    </script>
+    <title>Day-9 Java Prac</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <div class="container-fluid contain1">
+        <div class="userInfo" id="user">
+            <h1 class="userPrint" id="userPrintout"></h1>
+        </div>
+        
+        <div class="col-10 formBox show">
+            <form id="form">
+                <p>First</p>
+                <input class="textBox" onkeydown="handleEnter(event)" autofocus="autofocus" placeholder="First Name"
+                    type="text" id="firstName">
+                <p>Last</p>
+                <input class="textBox" onkeydown="handleEnter(event)" placeholder="Last Name" type="text" id="lastName">
+                <p>Phone</p>
+                <input class="textBox" placeholder="(###)###-####" type="tel" name="phone" id="phone">
+                <div class="text-center">
+                    <button class="btn btn-lrg btn-primary mt-5" type="button" id="submitBtn">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="buttonBox text-center">
+    <button class="resetBtn btn-lrg btn-primary mt-5 hidden" type="button" id="reset">Reset</button>
+</div>
+
+
+</body>
+
+</html>

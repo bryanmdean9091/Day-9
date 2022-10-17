@@ -1,0 +1,70 @@
+
+body {
+    background-image: url("./images/moonback.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contain1 {
+    display: flex;
+    justify-content: center;  
+    margin-top: 13%;
+}
+
+.formBox {
+    height: 23rem;
+    width: 27rem;
+    border: .25rem solid white;
+    display: flex;
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+}
+
+.userInfo {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.show {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+p {
+    margin-left: 1.5rem;
+    font-size: 1.5rem;
+
+}
+
+.textBox {
+    border: 2px solid white;
+    width: 24rem;
+    margin-left: 1.5rem;
+}
+
+.btn {
+    width: 8rem;
+}
+ 
+.buttonBox {
+   display: flex;
+   justify-content: center;
+   margin: auto;
+}
+.resetBtn {
+ width: 8rem;
+ border: .25rem solid white;
+
+
+}
+
